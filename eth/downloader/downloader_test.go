@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/prchain/go-prchain/common"
+	"github.com/prchain/go-prchain/consensus/ethash"
+	"github.com/prchain/go-prchain/core"
+	"github.com/prchain/go-prchain/core/state"
+	"github.com/prchain/go-prchain/core/types"
+	"github.com/prchain/go-prchain/crypto"
+	"github.com/prchain/go-prchain/ethdb"
+	"github.com/prchain/go-prchain/event"
+	"github.com/prchain/go-prchain/params"
+	"github.com/prchain/go-prchain/trie"
 )
 
 var (

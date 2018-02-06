@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/prchain/go-prchain"
+	"github.com/prchain/go-prchain/common"
+	"github.com/prchain/go-prchain/core"
+	"github.com/prchain/go-prchain/core/types"
+	"github.com/prchain/go-prchain/event"
+	"github.com/prchain/go-prchain/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

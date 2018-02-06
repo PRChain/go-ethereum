@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/prchain/go-prchain/common"
+	"github.com/prchain/go-prchain/core/types"
+	"github.com/prchain/go-prchain/eth"
+	"github.com/prchain/go-prchain/les/flowcontrol"
+	"github.com/prchain/go-prchain/light"
+	"github.com/prchain/go-prchain/p2p"
+	"github.com/prchain/go-prchain/rlp"
 )
 
 var (

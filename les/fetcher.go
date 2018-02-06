@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/prchain/go-prchain/common"
+	"github.com/prchain/go-prchain/common/mclock"
+	"github.com/prchain/go-prchain/consensus"
+	"github.com/prchain/go-prchain/core"
+	"github.com/prchain/go-prchain/core/types"
+	"github.com/prchain/go-prchain/light"
+	"github.com/prchain/go-prchain/log"
 )
 
 const (

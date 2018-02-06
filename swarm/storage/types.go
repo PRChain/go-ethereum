@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/bmt"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
+	"github.com/prchain/go-prchain/bmt"
+	"github.com/prchain/go-prchain/common"
+	"github.com/prchain/go-prchain/crypto/sha3"
 )
 
 type Hasher func() hash.Hash
